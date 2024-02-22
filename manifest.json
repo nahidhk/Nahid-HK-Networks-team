@@ -1,0 +1,15 @@
+{
+    "name": "Nahid HK Networks team",
+    "short_name": "Nahid HK",
+    "icons": [
+      {
+        "src": "data/icon/nahidhk.jpg",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000"
+  }
