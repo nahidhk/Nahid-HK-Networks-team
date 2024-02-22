@@ -20,14 +20,47 @@ body{
     z-index: 100;
 }
 .centerdiv{
-    height: auto;
-    width: auto;
+    height: 250px;
+    width: 250px;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: logofont;
-    font-size: 10rem;
     font-weight: bold;
     color: limegreen;
 }
+.centerdiv img{
+    height: 100%;
+    width: 100%;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 2px solid lime;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background: limegreen;
+    width: 3px;
+    height: 24px;
+    transform: translateX(-50%);
+  }
+      
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
