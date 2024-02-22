@@ -75,3 +75,9 @@ body{
       transform: rotate(360deg);
     }
   } 
+.navio{
+  height: 80px;
+  width: 100%;
+  background-color: #0B0B0BB8;
+  box-shadow: 0 0 30px 0 #2AA400;
+}
