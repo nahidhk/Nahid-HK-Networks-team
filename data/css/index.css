@@ -4,6 +4,16 @@
     src: url("/data/font/nahidhklogo.ttf");
 }
 
+/* hacker font1 */
+@font-face {
+  font-family: hacker1;
+  src: url("/data/font/hacker2.ttf");
+}
+/*hacker font 2*/
+@font-face {
+  font-family: hacker2;
+  src: url("/data/font/hacker1.otf");
+}
 
 body{
     margin: 0;
@@ -26,9 +36,10 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: logofont;
+    font-family: hacker1;
     font-weight: bold;
     color: limegreen;
+    
 }
 .centerdiv img{
     height: 100%;
