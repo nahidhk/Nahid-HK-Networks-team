@@ -28,11 +28,11 @@ async function displayData() {
             itemElement.innerHTML = `
 
   <tr>
-    <td>${item.has}</td>
-    <td>${item.date}</td>
-    <td>${item.labs}</td>
-    <td>${item.link}</td>
-    <td>${item.glink}</td>
+    <td style="color:red;">${item.has}</td>
+    <td style="color:${item.color};">${item.date}</td>
+    <td style="color:${item.color};">${item.labs}</td>
+    <td style="color:${item.color};">${item.link}</td>
+    <td style="color:${item.color};">${item.glink}</td>
   </tr>
               
             `;

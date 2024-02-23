@@ -4,28 +4,33 @@
     "date":"Oct 17 , 2023",
     "labs":"HTML",
     "link":"https://create-web.site/",
-    "glink":"https://github.com/nahidhk/create-web.site"
+    "glink":"https://github.com/nahidhk/create-web.site",
+    "color":"#"
   },
  {
     "has":"02",
     "date":"Dec 14 , 2023",
     "labs":"JavaScript",
     "link":"https://account.nahidhk.info/",
-    "glink":"https://github.com/nahidhk/Daly-earn-entry-app"
+    "glink":"https://github.com/nahidhk/Daly-earn-entry-app",     "color":"#"
+
   },
   {
     "has": "03",
     "date": "Dec 26 , 2023",
     "labs": "HTML",
     "link": "Nahid HK 2.0v",
-    "glink": "https://github.com/nahidhk/nahidhk.info-v2.0"
+    "glink": "https://github.com/nahidhk/nahidhk.info-v2.0",
+        "color":"#"
+
   },
   {
     "has": "04",
     "date": "Jan 1 , 2024",
     "labs": "HTML",
     "link": "Nahid HK 2.5v",
-    "glink": "https://github.com/nahidhk/nahidhk-v2.5"
+    "glink": "https://github.com/nahidhk/nahidhk-v2.5",    "color":"#"
+
   }
   ,
   {
@@ -33,7 +38,8 @@
     "date": "Jan 5 , 2024",
     "labs": "HTML",
     "link": "https://coder.create-web.site/",
-    "glink": "https://github.com/nahidhk/html-CSS-complier"
+    "glink": "https://github.com/nahidhk/html-CSS-complier",    "color":"#"
+
   }
 ,
   {
@@ -41,7 +47,8 @@
     "date": "Jan 15 , 2024",
     "labs": "PHP/JavaScript",
     "link": "https://mailr.bmhm.sbs/",
-    "glink": "https://github.com/nahidhk/mail-verify-system-"
+    "glink": "https://github.com/nahidhk/mail-verify-system-",    "color":"#"
+
   }
 ,
   {
@@ -49,7 +56,8 @@
     "date": "Jan 20, 2024",
     "labs": "JavaScript",
     "link": "https://www.readyoffercareer.com/",
-    "glink": "https://github.com/nahidhk/Landing-card"
+    "glink": "https://github.com/nahidhk/Landing-card",     "color":"#"
+
   }
   ,
   {
@@ -57,7 +65,8 @@
     "date": "Jan 29, 2024",
     "labs": "JavaScript",
     "link": "NotePad App",
-    "glink": "https://github.com/nahidhk/NotePad-App"
+    "glink": "https://github.com/nahidhk/NotePad-App",     "color":"#"
+
   }
   ,
   {
@@ -65,7 +74,8 @@
     "date": "Fab 3, 2024",
     "labs": "JavaScript",
     "link": "https://find-developer.bmhm.sbs/",
-    "glink": "https://github.com/nahidhk/developer-Find"
+    "glink": "https://github.com/nahidhk/developer-Find",    "color":"#FFC200"
+
   }
   ,
   {
@@ -73,7 +83,8 @@
     "date": "Fab 14, 2024",
     "labs": "JavaScript",
     "link": "https://landingcode.bmhm.sbs/",
-    "glink": "https://github.com/nahidhk/landingCode"
+    "glink": "https://github.com/nahidhk/landingCode",     "color":"#"
+
   }         
  
 

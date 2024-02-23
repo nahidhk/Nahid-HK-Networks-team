@@ -191,3 +191,34 @@ table,tr,th,td{
   border: 1px dotted lime;
   text-align: center;
 }
+.menu-icon{
+position: absolute;
+top: 20px;
+right: 20px;
+font-size: 20px;
+}
+.menu-icon:active{
+  color: #fff;
+  cursor: pointer;
+}
+a{
+  color: lime;
+  text-decoration: none;
+  border: 1px dotted lime;
+  padding: 10px;
+  padding-right: 150px;
+  transition: all 1s;
+}
+a:hover{
+  border-radius: 100px;
+}
+.skill{
+  border: 1px dashed #FF8A02;
+ height: 40px;
+ padding-left: 10px;
+  padding-right: 10px;
+background-color: #42445A00;
+color: lime;
+font-family: hi1;
+margin: 5px;
+}
