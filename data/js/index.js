@@ -13,3 +13,37 @@ document.addEventListener('click', e => {
         cursor.classList.remove("expand");
     }, 500);
 });
+
+
+
+async function displayData() {
+    try {
+        const response = await fetch("/data/json/data.json");
+        const data = await response.json();
+        const dataContainer = document.getElementById('showmy-bata');
+
+        // Loop through the data and display it
+        data.forEach(item => {
+            const itemElement = document.createElement('tr');
+            itemElement.innerHTML = `
+
+  <tr>
+    <td>${item.has}</td>
+    <td>${item.date}</td>
+    <td>${item.labs}</td>
+    <td>${item.link}</td>
+    <td>${item.glink}</td>
+  </tr>
+              
+            `;
+            dataContainer.appendChild(itemElement);
+        });
+    } catch (error) {
+        console.error('Error fetching or displaying data:', error);
+    }
+}
+
+// Call the displayData function to load and display JSON data
+displayData();
+//
+//

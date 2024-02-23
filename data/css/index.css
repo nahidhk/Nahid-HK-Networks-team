@@ -185,6 +185,7 @@ body{
 table{
   width: 100%;
   border-collapse: collapse;
+ 
 }
 table,tr,th,td{
   border: 1px dotted lime;
