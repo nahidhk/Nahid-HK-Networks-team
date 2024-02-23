@@ -170,3 +170,23 @@ body{
  
   font-size: 1rem;
 }
+.btn{
+  height: 40px;
+  background-color: #2AA40000;
+  color: #41FF00;
+  font-family: hi1;
+  border: 1px dotted #41FF00;
+  cursor: pointer;
+  margin: 20px;
+}
+::selection{
+  background-color: #FF0000;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table,tr,th,td{
+  border: 1px dotted lime;
+  text-align: center;
+}
