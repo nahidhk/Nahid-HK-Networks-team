@@ -14,12 +14,22 @@
   font-family: hacker2;
   src: url("/data/font/hacker1.otf");
 }
-
+/* hi1 */
+@font-face {
+  font-family: hi1;
+  src: url("/data/font/hi1.ttf");
+}
+/* hi2 */
+@font-face {
+  font-family: hi2;
+  src: url("/data/font/hi2.ttf");
+}
 body{
     margin: 0;
     padding: 0;
     background-color:#000;
     color: lime;
+    font-family: hi1;
 }
 .load{
     height: 100vh;
@@ -76,8 +86,87 @@ body{
     }
   } 
 .navio{
+  position: fixed;
+  top: 0;
   height: 80px;
   width: 100%;
   background-color: #0B0B0BB8;
-  box-shadow: 0 0 30px 0 #2AA400;
+  box-shadow: 0 0 3000px 0 #2AA40038;
+  z-index: 99;
+  backdrop-filter: blur(2px);
+}
+.title{
+  font-size: 3rem;
+ position: absolute;
+ top: 10px;
+ left: 20px;
+ font-family: hi1;
+ 
+}
+
+.any{
+  animation: nahid 0.01s infinite;
+}
+@keyframes nahid{
+  0%{opacity: 0;}
+   10%{opacity: 0;}
+   20%{opacity: 1;}
+
+  100%{opacity: 1;}
+}
+
+
+.cursor {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+    border-radius: 50%;
+    background: transparent;
+    pointer-events: none;
+    z-index: 111;
+    border: 1px solid lime;
+    transition: all 0.2s ease-out;
+    animation: moveCursor1 .5s infinite alternate;
+}
+
+.expand {
+    background: transparent;
+    animation: moveCursor2 .5s forwards;
+    border: 1px solid #fff;
+}
+
+@keyframes moveCursor1 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.8);
+    }
+}
+
+@keyframes moveCursor2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+.marqueenet{
+  border: 0.2px dotted lime;
+  font-family: hi1;
+  color: limegreen;
+ 
+  font-size: 1rem;
 }
