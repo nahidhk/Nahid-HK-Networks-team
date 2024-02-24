@@ -222,3 +222,13 @@ color: lime;
 font-family: hi1;
 margin: 5px;
 }
+img{
+  width: 50%;
+  height: 50%;
+}
+@media only screen and (max-width: 600px) {
+  img{
+    height: 100%;
+    width: 100%;
+  }
+}
