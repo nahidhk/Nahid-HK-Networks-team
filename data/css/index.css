@@ -30,6 +30,7 @@ body{
     background-color:#000;
     color: lime;
     font-family: hi1;
+  cursor:url('https://i.imgur.com/6wmyrkK.gif'),auto;
 }
 .load{
     height: 100vh;
@@ -104,16 +105,7 @@ body{
  
 }
 
-.any{
-  animation: nahid 0.01s infinite;
-}
-@keyframes nahid{
-  0%{opacity: 0;}
-   10%{opacity: 0;}
-   20%{opacity: 1;}
 
-  100%{opacity: 1;}
-}
 
 
 .cursor {
