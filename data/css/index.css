@@ -198,7 +198,8 @@ a{
   text-decoration: none;
   border: 1px dotted lime;
   padding: 10px;
-  padding-right: 150px;
+  padding-right: 50px;
+  padding-left: 20px;
   transition: all 1s;
 }
 a:hover{
