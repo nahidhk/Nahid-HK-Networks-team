@@ -28,7 +28,7 @@ body{
     margin: 0;
     padding: 0;
     background-color:#000;
-    color: lime;
+    color: #00ff00;
     font-family: hi1;
   cursor:url('https://i.imgur.com/6wmyrkK.gif'),auto;
 }
@@ -104,10 +104,6 @@ body{
  font-family: hi1;
  
 }
-
-
-
-
 .cursor {
     display: block;
     width: 20px;
@@ -168,8 +164,11 @@ body{
   color: #41FF00;
   font-family: hi1;
   border: 1px dotted #41FF00;
-  cursor: pointer;
   margin: 20px;
+  cursor:url('https://i.imgur.com/6wmyrkK.gif'),auto;
+}
+.btn:active{
+  cursor: pointer;
 }
 ::selection{
   background-color: #FF0000;
@@ -200,9 +199,14 @@ a{
   padding: 10px;
   padding-right: 150px;
   transition: all 1s;
+  cursor:url('https://i.imgur.com/6wmyrkK.gif'),auto;
 }
 a:hover{
   border-radius: 100px;
+ 
+}
+a:active{
+  cursor: progress;
 }
 .skill{
   border: 1px dashed #FF8A02;
